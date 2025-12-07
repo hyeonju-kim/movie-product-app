@@ -37,6 +37,7 @@ public class WebClientHttpClient implements HttpClientWrapper{
         this.webClient = WebClient.builder()
                 .clientConnector(new ReactorClientHttpConnector(httpClient))
                 .build();
+        // GIT TEST6
     }
 
     @Override
